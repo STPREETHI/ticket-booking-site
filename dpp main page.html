@@ -1,126 +1,109 @@
-
-
-<html>
-<title>dpp travels</title>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <link rel="stylesheet" href="project.css">
-</head>
-<style>	
-	.column {
-	  float: left;
-	  width: 30%;
-	  padding: 5px;
-	}
-	img {
-	  width: 100%;
-	}	
-</style>
- <style>
+    <meta charset="UTF-8">
+    <title>DPP Travels</title>
+
+    <link rel="stylesheet" href="project.css">
+
+    <style>
         body {
-            background-image: url(""C:\Users\PREETHI\Downloads\bg.jpg"");
-            background-size: cover; /* Adjust as needed */
-            background-position: center; /* Adjust as needed */
+            background-image: url("bg.jpg"); /* Put bg.jpg in same folder */
+            background-size: cover;
+            background-position: center;
             background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .column img {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        .column {
+            width: 30%;
+        }
+
+        .cities {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .cities a {
+            color: yellow;
+            font-size: 24px;
+            font-weight: bold;
+            text-decoration: none;
+            display: block;
+            margin: 12px 0;
+        }
+
+        marquee {
+            font-size: 20px;
+            color: cyan;
+            font-weight: bold;
+        }
+
+        .video-section {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        video {
+            border: 5px groove white;
+            border-radius: 10px;
         }
     </style>
-</head>  
-<body>
-<center>
-<h1 style="border:white; border-width:6px; border-style:solid;">DPP TRAVELS</h1>
-</center>
-<br>
+</head>
 
-	<div class="container">
-	   <div class="column">
-	     <img src="bus.jpeg" alt="image1">
-	   </div>
-	   <div class="column">
-	     <img src="bus image.jpeg" alt="image2">
-          </div>
-<div class="column">
-	     <img src="bu.jpeg" alt="image3">
-	   </div>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<h2 style="border:white; border-width:5px; border-style:double;"> 
-<br>                           
-<center>WE PROVIDE SERVICES TO THE FOLLOWING TOWNS</center>
-<br>
-<marquee>Click on the city to book your tickets</marquee>
-<br>
-<br>
-<center><a href="file:///C:/Users/PREETHI/Documents/bus.html"><b>COIMBATORE</b></a></center>
-<br>
-<br>
-<center><a href="file:///C:/Users/PREETHI/Documents/bus.html"><b>CHENNAI</b></a></center>
-<br>
-<br>
-<center><a href="file:///C:/Users/PREETHI/Documents/bus.html"><b>BANGALORE</b></a></center>
-<br>
-<br>
-<center><a href="file:///C:/Users/PREETHI/Documents/bus.html"><b>MADURAI</b></a></center>
-<br>
-<br>
-<center><a href="file:///C:/Users/PREETHI/Documents/bus.html"><b>SALEM</b></a></center>
-<br>
-<br>
-<center><a href="file:///C:/Users/PREETHI/Documents/bus.html"><b>KARUR</b></a></center>
-<br>
-<br>
-<center><a href="file:///C:/Users/PREETHI/Documents/bus.html"><b>NAMAKKAL</b></a></center>
-<br>
-<br>
-<center><a href="file:///C:/Users/PREETHI/Documents/bus.html"><b>KANYAKUMARI</b></a></center>
-<br>
-<br>
-</h2>
 <body>
-<h1>ENJOY THE JOURNEY CUSTOMISED BY DPP</h1>
-<center>
-<video width="600" height="500" controls style="border:white; border-width:5px; border-style:groove;">
-  <source src="MVI_6835.mp4" type="video/mp4">
-  <source src="MVI_6835.ogg" type="video/ogg">
-Your browser does not support the video tag.
-</video>
-<center>
-<br>
+
+    <h1 style="border: 6px solid white;">DPP TRAVELS</h1>
+
+    <div class="container">
+        <div class="column"><img src="bus.jpeg" alt="Bus 1"></div>
+        <div class="column"><img src="bus image.jpeg" alt="Bus 2"></div>
+        <div class="column"><img src="bu.jpeg" alt="Bus 3"></div>
+    </div>
+
+    <h2 style="border: 5px double white; padding: 15px;">
+        WE PROVIDE SERVICES TO THE FOLLOWING TOWNS
+        <br><br>
+        <marquee>Click on the city to book your tickets</marquee>
+    </h2>
+
+    <div class="cities">
+        <a href="bus.html">COIMBATORE</a>
+        <a href="bus.html">CHENNAI</a>
+        <a href="bus.html">BANGALORE</a>
+        <a href="bus.html">MADURAI</a>
+        <a href="bus.html">SALEM</a>
+        <a href="bus.html">KARUR</a>
+        <a href="bus.html">NAMAKKAL</a>
+        <a href="bus.html">KANYAKUMARI</a>
+    </div>
+
+    <div class="video-section">
+        <h1>ENJOY THE JOURNEY CUSTOMISED BY DPP</h1>
+        <video width="600" height="500" controls>
+            <source src="MVI_6835.mp4" type="video/mp4">
+            <source src="MVI_6835.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-         
 </html>
